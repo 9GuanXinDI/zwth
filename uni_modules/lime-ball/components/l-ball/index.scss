@@ -1,0 +1,23 @@
+
+/* #ifndef APP-NVUE */
+$ball-size: var(--l-ball-size, 30rpx);
+$ball-color: var(--l-ball-color, red);
+/* #endif */
+/* #ifdef APP-NVUE */
+$ball-size: 30rpx;
+$ball-color: red;
+/* #endif */
+.l-ball {
+	width: $ball-size;
+	height: $ball-size;
+	background-color: $ball-color;
+	position: fixed;
+	border-radius: 999rpx;
+	opacity: 0;
+	z-index: 10;
+	&-wrapper {
+		/* #ifndef APP-NVUE */
+		display: inline-block;
+		/* #endif */
+	}
+}

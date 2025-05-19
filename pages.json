@@ -1,0 +1,160 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/goodsCar/goodsCar",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	
+	"subPackages": [{
+			"root": "pageA",
+			"pages": [
+				{
+					"path": "login/login",
+					"style": {
+						"navigationBarTitleText": "登录"
+						// "navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "register/register",
+					"style": {
+						"navigationBarTitleText": "注册"
+					}
+				},
+				
+				{
+					"path": "goodsInfo/goodsInfo",
+					"style": {
+						"navigationBarTitleText": "商品详情"
+					}
+				},
+				{
+					"path": "orderList/orderList",
+					"style": {
+						"navigationBarTitleText": "订单管理",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "accountManage/accountManage",
+					"style": {
+						"navigationBarTitleText": "账号管理"
+					}
+				},
+				{
+					"path": "orderInfo/orderInfo",
+					"style": {
+						"navigationBarTitleText": "订单详情"
+					}
+				},
+				{
+					"path": "paymentInfo/paymentInfo",
+					"style": {
+						"navigationBarTitleText": "支付"
+					}
+				},
+				{
+					"path": "addressManage/addressManage",
+					"style": {
+						"navigationBarTitleText": "地址管理"
+					}
+				},
+				{
+					"path": "addAddress/addAddress",
+					"style": {
+						"navigationBarTitleText": "编辑地址"
+					}
+				},
+				{
+					"path": "applyCompany/applyCompany",
+					"style": {
+						"navigationBarTitleText": "申请公司"
+					}
+				},
+				{
+					"path" : "webview/webview",
+					"style" : 
+					{
+						"navigationBarTitleText" : ""
+					}
+				},
+				{
+					"path" : "serviceAgreement/serviceAgreement",
+					"style" : 
+					{
+						"navigationBarTitleText" : ""
+					}
+				},
+				{
+					"path" : "userPrivacy/userPrivacy",
+					"style" : 
+					{
+						"navigationBarTitleText" : ""
+					}
+				},
+				{
+					"path" : "companyManage/companyManage",
+					"style" : 
+					{
+						"navigationBarTitleText" : ""
+					}
+				}
+			]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"show": false,
+		"selectedColor": "#E21C1C",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index-select.png",
+				"tabBarStyle":"hidden"
+			},
+			{
+				"pagePath": "pages/goodsCar/goodsCar",
+				"text": "购物车",
+				"iconPath": "static/car.png",
+				"selectedIconPath": "static/car-select.png",
+				"tabBarStyle":"hidden"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-select.png",
+				"tabBarStyle":"hidden"
+			}
+		]
+	}
+}

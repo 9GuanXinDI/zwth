@@ -1,0 +1,24 @@
+{
+  "id": "cls-DragBtn",
+  "name": "可拖拽的悬浮按钮，兼容app，小程序，H5",
+  "displayName": "可拖拽的悬浮按钮，兼容app，小程序，H5",
+  "version": "0.0.2",
+  "description": "可以拖拽的悬浮按钮，全平台兼容，可以监听拖拽事件",
+  "keywords": [
+    "悬浮按钮，拖拽按钮，DragBtn，drag-button"
+  ],
+  "dcloudext": {
+    "category": [
+      "前端组件",
+      "通用组件"
+    ]
+  },
+  "dependencies": {
+    "@easydarwin/easyplayer": "^5.1.1",
+    "pinia-plugin-persist-uni": "^1.3.1",
+    "stompjs": "^2.3.3"
+  },
+  "devDependencies": {
+    "js-md5": "^0.8.3"
+  }
+}
